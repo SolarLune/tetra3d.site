@@ -1,0 +1,1 @@
+reflex -r '.(md|css)' -s -- sh -c "./build.sh"

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<script src="wasm_exec.js"></script>
+<script>
+const go = new Go();
+var filename = "logo"
+
+var url = new URL(window.parent.location.toString());
+var loadParams = url.searchParams.get("example");
+if (loadParams) {
+    filename = loadParams;
+}
+
+WebAssembly.instantiateStreaming(fetch("examples/"+ filename +".wasm"), go.importObject).then(result => {
+    go.run(result.instance);
+});
+</script>

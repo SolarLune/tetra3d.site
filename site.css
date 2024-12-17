@@ -1,0 +1,60 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 64px;
+}
+
+body {
+    margin-left: 160px;
+
+    font-family: "Gill Sans", sans-serif;
+    color: #606060;
+    max-width: 600px;
+    margin:auto;
+    background: url("assets/PageBG.png");
+    /* background-position: top; */
+    background-attachment: fixed;
+}
+
+.sidebar {
+    width: 160px;
+    top: 16px;
+    bottom: 16px;
+    position: fixed;
+    overflow-y:auto;
+}
+
+.main {
+    margin-left: 160px;
+
+    padding: 16px;
+    margin-top: 64px;
+    background-color:white;
+}
+
+.header {
+    margin-left: 160px;
+
+    background-color:white;
+    /* padding: 16px; */
+    margin: 0px;
+    position:fixed;
+    text-align: center;
+    top:0;
+    left: 0;
+    right:0;
+}
+
+h1 h2 h3 {
+    color: #404040;
+}
+
+.tinyText {
+    margin-left: 160px;
+
+    font-size:x-small;
+}
+
+a {
+    color: black;
+    /* text-decoration: none; */
+}

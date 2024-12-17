@@ -1,0 +1,1 @@
+pandoc -c site.css -s index.md -o index.html
