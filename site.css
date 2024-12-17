@@ -4,15 +4,13 @@ html {
 }
 
 body {
-    margin-left: 160px;
-
     font-family: "Gill Sans", sans-serif;
     color: #606060;
-    max-width: 600px;
-    margin:auto;
-    background: url("assets/PageBG.png");
-    /* background-position: top; */
-    background-attachment: fixed;
+    margin:64px;
+    
+    background-color: #f0faff;
+
+    max-width: 1120px; /*960px iframe width + 160px sidebar*/
 }
 
 .sidebar {
@@ -28,14 +26,11 @@ body {
 
     padding: 16px;
     margin-top: 64px;
-    background-color:white;
 }
 
 .header {
     margin-left: 160px;
 
-    background-color:white;
-    /* padding: 16px; */
     margin: 0px;
     position:fixed;
     text-align: center;
